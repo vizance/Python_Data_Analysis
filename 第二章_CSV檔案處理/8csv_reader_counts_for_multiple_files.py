@@ -12,7 +12,7 @@ import glob
 import os
 input_path = sys.argv[1] #檔案路徑
 file_counter = 0 #有「多個」檔案時要用計數器追蹤處理數量
-for input_file in glob.glob(os.path.join(input_file, 'sales_*')):
+for input_file in glob.glob(os.path.join(input_path, 'sales_*')):
 #glob.glob()找出含有特定文字組合的路徑名稱；os解析路徑名稱
     row_counter = 1 #header為一列
     with open(input_file, 'r', newline='') as csv_in_file:

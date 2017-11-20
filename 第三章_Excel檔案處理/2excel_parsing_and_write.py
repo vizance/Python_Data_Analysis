@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #!usr/bin/env python3
-#處理單張工作表(將單張worksheet讀入到新檔案)
+#處理單張工作表(將單張worksheet讀入到新檔案，但日期會有問題)
 """
 Created on Mon Oct  2 09:48:52 2017
 
